@@ -1,2 +1,5 @@
-# erasurecode
-erasure code library
+通过生成多项式的原理构造的reed-solomon编解码库。
+编解码模块及伽罗瓦域运算的模块是由c实现。
+使用golang对编解码的接口进行了封装。
+
+支持sse，avx，avx2汇编指令集。
