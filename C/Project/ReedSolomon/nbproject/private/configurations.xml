@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="DebugGCC" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.10Data5Check0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.10Data5Check1Error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=A.a</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeOmega_3error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeGramma_derivative_1error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeGramma_derivative*</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeOmega_4errortest</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=CTeseCase.ErrorLocationInfo</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=CTeseCase.ErrorLocationInfo*</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=*.*</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  --gtest_filter=*.*</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="ReleaseGCC" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter=CTeseCase.ErrorLocationInfo</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter=CTeseCase.ErrorLocationInfo*</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter=CTeseCase.*</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter=*.*</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" --gtest_filter=*.*</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="DebugClang" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter= RSDecodeTestCase.10Data5Check0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter= RSDecodeTestCase.10Data5Check0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.10Data5Check0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.10Data5Check1Error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=A.a</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeOmega_3error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeGramma_derivative_1error</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeGramma_derivative*</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=RSDecodeTestCase.computeOmega_4errortest</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  --gtest_filter=*.*</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  --gtest_filter=*.*</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="ReleaseClang" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --gtest_filter=*.*</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" --gtest_filter=*.*</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

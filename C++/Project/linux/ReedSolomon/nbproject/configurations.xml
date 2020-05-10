@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../../include/ec/ec.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../../src/GaloisField.cpp</itemPath>
+      <itemPath>../../../src/GaloisField.h</itemPath>
+      <itemPath>../../../src/GaloisFieldElement.cpp</itemPath>
+      <itemPath>../../../src/GaloisFieldElement.h</itemPath>
+      <itemPath>../../../src/GaloisFieldPolynomial.cpp</itemPath>
+      <itemPath>../../../src/GaloisFieldPolynomial.h</itemPath>
+      <itemPath>/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.cpp</itemPath>
+      <itemPath>/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.h</itemPath>
+      <itemPath>/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.cpp</itemPath>
+      <itemPath>/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.h</itemPath>
+      <itemPath>../../../src/ec.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="UnitTest" projectFiles="true">
+      <logicalFolder name="f6" displayName="ECTestCase " projectFiles="true">
+        <itemPath>../../../UnitTest/ECTestCase/EC10Data5CheckTestCase.cpp</itemPath>
+        <itemPath>../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.cpp</itemPath>
+        <itemPath>../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.h</itemPath>
+        <itemPath>../../../UnitTest/ECTestCase/EC4Data2CheckTestCase.cpp</itemPath>
+        <itemPath>../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.cpp</itemPath>
+        <itemPath>../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="GaloisFieldElementTestCase"
+                     projectFiles="true">
+        <itemPath>/home/wxt/Dev/Qiniu/ec/C++/UnitTest/GaloisFieldElementTestCase/GaloisFieldElementTestCase.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7"
+                     displayName="GaloisFieldTableTestCase"
+                     projectFiles="true">
+        <itemPath>../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase0.cpp</itemPath>
+        <itemPath>../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase1.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="GaloisFieldTestCase" projectFiles="true">
+        <itemPath>../../../UnitTest/GaloisFieldTestCase/GaloisFieldTestCase.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="PolynomialTestCase" projectFiles="true">
+        <itemPath>/home/wxt/Dev/Qiniu/ec/C++/UnitTest/PolynomialTestCase/GaloisFieldPolynomialTestCase.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5"
+                     displayName="ReedSolomonCodeTestCase"
+                     projectFiles="true">
+        <itemPath>../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonDeCodeTestCase .cpp</itemPath>
+        <itemPath>../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonEnCodeTestCase.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="StandardRef" projectFiles="true">
+        <itemPath>../../../UnitTest/StandardRef/schifra_galois_field.hpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+        <ccTool>
+          <commandLine>-fprofile-arcs -ftest-coverage</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>gtest</linkerLibLibItem>
+            <linkerLibLibItem>gtest_main</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-fprofile-arcs</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTestCase/GaloisFieldTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonDeCodeTestCase .cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonEnCodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/StandardRef/schifra_galois_field.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../include/ec/ec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisField.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/ec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/UnitTest/GaloisFieldElementTestCase/GaloisFieldElementTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/UnitTest/PolynomialTestCase/GaloisFieldPolynomialTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>3</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>gtest</linkerLibLibItem>
+            <linkerLibLibItem>gtest_main</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC10Data5CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ECTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTableTestCase/GaloisFieldTableTestCase1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/GaloisFieldTestCase/GaloisFieldTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonDeCodeTestCase .cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/ReedSolomonCodeTestCase/ReedSolomonEnCodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../UnitTest/StandardRef/schifra_galois_field.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../include/ec/ec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisField.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/ec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/UnitTest/GaloisFieldElementTestCase/GaloisFieldElementTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/UnitTest/PolynomialTestCase/GaloisFieldPolynomialTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Dev/Qiniu/ec/C++/src/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

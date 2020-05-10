@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../src/GaliosField8GeneralPoly_0.c</itemPath>
+      <itemPath>../../src/GaliosField8GeneralPoly_0.h</itemPath>
+      <itemPath>../../src/GaliosField8Table_0.c</itemPath>
+      <itemPath>../../src/GaliosField8Table_0.h</itemPath>
+      <itemPath>../../src/RSGlobal.c</itemPath>
+      <itemPath>../../src/RSGlobal.h</itemPath>
+      <itemPath>../../src/rs.c</itemPath>
+      <itemPath>../../src/rs.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="UnitTest" projectFiles="true">
+      <logicalFolder name="f6" displayName="CRef" projectFiles="true">
+        <itemPath>../../UnitTest/CRef/CRef.c</itemPath>
+        <itemPath>../../UnitTest/CRef/CRef.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="CTestCase" projectFiles="true">
+        <itemPath>../../UnitTest/CTestCase/CTeseCase_ErrorLocationInfo.cpp</itemPath>
+        <itemPath>../../UnitTest/CTestCase/CTestCase_decodeRS.cpp</itemPath>
+        <itemPath>../../UnitTest/CTestCase/CTestCase_encodeRS.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="OperatorTableTestCase"
+                     projectFiles="true">
+        <itemPath>../../UnitTest/OperatorTableTestCase/OperatorTableTestCase0.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="RSDecodeTestCase" projectFiles="true">
+        <itemPath>../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeGramma.cpp</itemPath>
+        <itemPath>../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeOmega.cpp</itemPath>
+        <itemPath>../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeSyndrome.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="RSEncodeTestCase" projectFiles="true">
+        <itemPath>../../UnitTest/RSEncodeTestCase/RSEncodeTestCase.cpp</itemPath>
+        <itemPath>../../UnitTest/RSEncodeTestCase/RSEncodesTestCase.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="RSTestCase" projectFiles="true">
+        <itemPath>../../UnitTest/RSTestCase/EC10Data5CheckTestCase.cpp</itemPath>
+        <itemPath>../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.cpp</itemPath>
+        <itemPath>../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.h</itemPath>
+        <itemPath>../../UnitTest/RSTestCase/EC4Data2CheckTestCase.cpp</itemPath>
+        <itemPath>../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.cpp</itemPath>
+        <itemPath>../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="StandardRef" projectFiles="true">
+        <itemPath>../../UnitTest/StandardRef/GaloisField.cpp</itemPath>
+        <itemPath>../../UnitTest/StandardRef/GaloisField.h</itemPath>
+        <itemPath>../../UnitTest/StandardRef/GaloisFieldElement.cpp</itemPath>
+        <itemPath>../../UnitTest/StandardRef/GaloisFieldElement.h</itemPath>
+        <itemPath>../../UnitTest/StandardRef/GaloisFieldPolynomial.cpp</itemPath>
+        <itemPath>../../UnitTest/StandardRef/GaloisFieldPolynomial.h</itemPath>
+        <itemPath>../../UnitTest/StandardRef/ReedSolomonDecode.cpp</itemPath>
+        <itemPath>../../UnitTest/StandardRef/ReedSolomonDecode.h</itemPath>
+        <itemPath>../../UnitTest/StandardRef/ReedSolomonEncode.cpp</itemPath>
+        <itemPath>../../UnitTest/StandardRef/ReedSolomonEncode.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="DebugGCC" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibLibItem>gtest</linkerLibLibItem>
+            <linkerLibLibItem>gtest_main</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../UnitTest/CRef/CRef.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CRef/CRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTeseCase_ErrorLocationInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_decodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_encodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/OperatorTableTestCase/OperatorTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeGramma.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeOmega.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeSyndrome.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodesTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/rs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/rs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="ReleaseGCC" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>3</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibFileItem>/usr/lib/libgtest.a</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/libgtest_main.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../UnitTest/CRef/CRef.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CRef/CRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTeseCase_ErrorLocationInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_decodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_encodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/OperatorTableTestCase/OperatorTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeGramma.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeOmega.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeSyndrome.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodesTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/rs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/rs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="DebugClang" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>CLang|CLang</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibLibItem>gtest</linkerLibLibItem>
+            <linkerLibLibItem>gtest_main</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../UnitTest/CRef/CRef.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CRef/CRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTeseCase_ErrorLocationInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_decodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_encodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/OperatorTableTestCase/OperatorTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeGramma.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeOmega.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeSyndrome.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodesTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/rs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/rs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="ReleaseClang" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>CLang|CLang</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>3</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibFileItem>/usr/lib/libgtest.a</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/libgtest_main.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../UnitTest/CRef/CRef.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CRef/CRef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTeseCase_ErrorLocationInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_decodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/CTestCase/CTestCase_encodeRS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/OperatorTableTestCase/OperatorTableTestCase0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeGramma.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeOmega.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSDecodeTestCase/RSDecodeTestCase_computeSyndrome.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodeTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSEncodeTestCase/RSEncodesTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC10Data5CheckTestCaseTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestCase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/RSTestCase/EC4Data2CheckTestSuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisField.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldElement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/GaloisFieldPolynomial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../UnitTest/StandardRef/ReedSolomonEncode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8GeneralPoly_0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/GaliosField8Table_0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/RSGlobal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/rs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../src/rs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
